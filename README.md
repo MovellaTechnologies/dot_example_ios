@@ -1,9 +1,9 @@
-# xsens_dot_example_iOS
+# dot_example_iOS
 
 ## Get start
-1. git clone https://github.com/xsens/xsens_dot_example_ios
+1. git clone https://github.com/MovellaTechnologies/dot_example_ios
 2. pod install
-3. open XsensDotExampleiOS.xcworkspace
+3. open MovellaDotExampleiOS.xcworkspace
 4. Please use a real iPhone to run with the sample code , the simulator will appear errors.
 
 ## Main methods
@@ -11,17 +11,17 @@
 
 1. Set the delegate
 ```
-[XsensDotConnectionManager setConnectionDelegate:self]; 
+[DotConnectionManager setConnectionDelegate:self]; 
 ```
 2. Start scan
 ```
-@property (strong, nonatomic) NSMutableArray<XsensDotDevice *> *deviceList;
+@property (strong, nonatomic) NSMutableArray<DotDevice *> *deviceList;
 ```
 ```
-[XsensDotConnectionManager scan];
+[DotConnectionManager scan];
 ```
 ```
-- (void)onDiscoverDevice:(XsensDotDevice *)device
+- (void)onDiscoverDevice:(DotDevice *)device
 {
     NSInteger index = [self.deviceList indexOfObject:device];
     if(index == NSNotFound)
@@ -33,28 +33,29 @@
 * Connect a sensor
 
 ```
-XsensDotDevice *device = self.deviceList.firstObject;
-[XsensDotConnectionManager connect:device];
+DotDevice *device = self.deviceList.firstObject;
+[DotConnectionManager connect:device];
 ```
 
 * Synchronization
 
 ```
-XsensDotSyncResultBolck block = ^(NSArray *array)
+DotSyncResultBolck block = ^(NSArray *array)
     {
 
     };
-[XsensDotSyncManager startSync:self.deviceList result:block];
+[DotSyncManager startSync:self.deviceList result:block];
 ```
 
 * Measurement
 
 ```
-XsensDotDevice *device = self.deviceList.firstObject;
+DotDevice *device = self.deviceList.firstObject;
 device.plotMeasureMode = XSBleDevicePayloadCompleteEuler;
 device.plotMeasureEnable = YES;
 ```
 
-## For more details, please visit : https://www.xsens.com/developer
+## For more details, please visit : [https://www.xsens.com/developer](https://www.movella.com/products/wearables/movella-dot)
+
 
 
