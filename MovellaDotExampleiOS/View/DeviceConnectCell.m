@@ -43,7 +43,7 @@
     [connectButton addTarget:self action:@selector(handleConnect:) forControlEvents:UIControlEventTouchUpInside];
     
     UILabel *tagLabel  = [[UILabel alloc]initWithFrame:CGRectMake(16, 20, 100, 20)];
-    tagLabel.text = @"Xsens DOT";
+    tagLabel.text = @"Movella DOT";
     tagLabel.font = [UIFont systemFontOfSize:16.f];
     
     UILabel *addressLabel  = [[UILabel alloc]initWithFrame:CGRectMake(16, tagLabel.bottom + 5, 140, 20)];
