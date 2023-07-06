@@ -55,7 +55,7 @@ device.plotMeasureMode = XSBleDevicePayloadCompleteEuler;
 device.plotMeasureEnable = YES;
 ```
 
-## For more details, please visit : [https://www.xsens.com/developer](https://www.movella.com/products/wearables/movella-dot)
+## For more details, please visit : [https://www.movella.com/developer](https://www.movella.com/products/wearables/movella-dot)
 
 
 
