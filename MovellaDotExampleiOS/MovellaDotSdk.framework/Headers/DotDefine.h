@@ -222,7 +222,7 @@ extern NSString * const kDotNotificationDeviceRecordingStateUpdate;
 /// Notification of sensor connection has been done. All properties initialized.
 extern NSString * const kDotNotificationDeviceInitialized;
 
-//@"Xsens DOT"
+//@"Movella DOT"
 extern NSString * const kDotDeviceSpecialName;
 
 #endif /* DotDefine_h */

@@ -13,7 +13,7 @@ FOUNDATION_EXPORT double DotSdkMfmVersionNumber;
 //! Project version string for DotSdkMfm.
 FOUNDATION_EXPORT const unsigned char DotSdkMfmVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <XsensDotSdkMfm/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <DotSdkMfm/PublicHeader.h>
 
 #import <MovellaDotSdkMfm/DotMFMManager.h>
 

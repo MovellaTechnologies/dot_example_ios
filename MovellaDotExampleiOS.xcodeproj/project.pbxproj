@@ -22,10 +22,10 @@
 		849A22D324F6619D0091235F /* DeviceMeasureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A22D224F6619D0091235F /* DeviceMeasureCell.m */; };
 		84A3D3C92755D3C700CB5B9B /* MfmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D3C82755D3C700CB5B9B /* MfmViewController.m */; };
 		84A3D3CF2755FEC600CB5B9B /* DeviceMfmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D3CE2755FEC600CB5B9B /* DeviceMfmCell.m */; };
-		D72BF7A42A5169F400F2FE31 /* MovellaDotSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72BF7A02A5164E100F2FE31 /* MovellaDotSdk.framework */; };
-		D72BF7A52A5169F400F2FE31 /* MovellaDotSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D72BF7A02A5164E100F2FE31 /* MovellaDotSdk.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D72BF7A72A5169F500F2FE31 /* MovellaDotSdkMfm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72BF7A22A5164E800F2FE31 /* MovellaDotSdkMfm.framework */; };
-		D72BF7A82A5169F500F2FE31 /* MovellaDotSdkMfm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D72BF7A22A5164E800F2FE31 /* MovellaDotSdkMfm.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D7824F472A56FECC00BE4A85 /* MovellaDotSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7824F432A56FEB300BE4A85 /* MovellaDotSdk.framework */; };
+		D7824F482A56FECC00BE4A85 /* MovellaDotSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7824F432A56FEB300BE4A85 /* MovellaDotSdk.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D7824F492A56FECE00BE4A85 /* MovellaDotSdkMfm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7824F442A56FEB300BE4A85 /* MovellaDotSdkMfm.framework */; };
+		D7824F4A2A56FECE00BE4A85 /* MovellaDotSdkMfm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7824F442A56FEB300BE4A85 /* MovellaDotSdkMfm.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,8 +35,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D72BF7A52A5169F400F2FE31 /* MovellaDotSdk.framework in Embed Frameworks */,
-				D72BF7A82A5169F500F2FE31 /* MovellaDotSdkMfm.framework in Embed Frameworks */,
+				D7824F482A56FECC00BE4A85 /* MovellaDotSdk.framework in Embed Frameworks */,
+				D7824F4A2A56FECE00BE4A85 /* MovellaDotSdkMfm.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,8 +74,8 @@
 		84ECB89827577720009894F9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A166402ADE81A0500B6A70B5 /* libPods-MovellaDotExampleiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovellaDotExampleiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6AE950E7672D8F236FB417 /* Pods-XsensDotExampleiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XsensDotExampleiOS.debug.xcconfig"; path = "Target Support Files/Pods-XsensDotExampleiOS/Pods-XsensDotExampleiOS.debug.xcconfig"; sourceTree = "<group>"; };
-		D72BF7A02A5164E100F2FE31 /* MovellaDotSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MovellaDotSdk.framework; sourceTree = "<group>"; };
-		D72BF7A22A5164E800F2FE31 /* MovellaDotSdkMfm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MovellaDotSdkMfm.framework; sourceTree = "<group>"; };
+		D7824F432A56FEB300BE4A85 /* MovellaDotSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MovellaDotSdk.framework; sourceTree = "<group>"; };
+		D7824F442A56FEB300BE4A85 /* MovellaDotSdkMfm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MovellaDotSdkMfm.framework; sourceTree = "<group>"; };
 		F9432425F24F0B5EB2526E1D /* Pods-XsensDotExampleiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XsensDotExampleiOS.release.xcconfig"; path = "Target Support Files/Pods-XsensDotExampleiOS/Pods-XsensDotExampleiOS.release.xcconfig"; sourceTree = "<group>"; };
 		F9CC7058CBACE1AF74DAB147 /* Pods-MovellaDotExampleiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovellaDotExampleiOS.debug.xcconfig"; path = "Target Support Files/Pods-MovellaDotExampleiOS/Pods-MovellaDotExampleiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D72BF7A42A5169F400F2FE31 /* MovellaDotSdk.framework in Frameworks */,
-				D72BF7A72A5169F500F2FE31 /* MovellaDotSdkMfm.framework in Frameworks */,
+				D7824F472A56FECC00BE4A85 /* MovellaDotSdk.framework in Frameworks */,
+				D7824F492A56FECE00BE4A85 /* MovellaDotSdkMfm.framework in Frameworks */,
 				38A26DE27CF284CEADBDF309 /* libPods-MovellaDotExampleiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,8 +153,8 @@
 				84A3D3D42756098400CB5B9B /* Header */,
 				84016C1A24EE0D42004FE390 /* UIKit */,
 				84016C1424EE0D42004FE390 /* View */,
-				D72BF7A02A5164E100F2FE31 /* MovellaDotSdk.framework */,
-				D72BF7A22A5164E800F2FE31 /* MovellaDotSdkMfm.framework */,
+				D7824F432A56FEB300BE4A85 /* MovellaDotSdk.framework */,
+				D7824F442A56FEB300BE4A85 /* MovellaDotSdkMfm.framework */,
 				846442C224EB7D76006297A8 /* AppDelegate.h */,
 				846442C324EB7D76006297A8 /* AppDelegate.m */,
 				846442CB24EB7D76006297A8 /* Main.storyboard */,
@@ -464,6 +464,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/XsensDotExampleiOS",
 					"$(PROJECT_DIR)/MovellaDotExampleiOS",
+					"$(PROJECT_DIR)/MovellaDotExampleiOS/View",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Header/PrefixHeader.pch";
@@ -493,6 +494,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/XsensDotExampleiOS",
 					"$(PROJECT_DIR)/MovellaDotExampleiOS",
+					"$(PROJECT_DIR)/MovellaDotExampleiOS/View",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Header/PrefixHeader.pch";
